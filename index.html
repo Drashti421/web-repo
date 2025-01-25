@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drashti  Developer Portfolio website</title>
+    <link href=<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+    *{
+        margin:0;
+        padding:0;
+        justify-item:center;
+    }
+    body{
+        background-color:rgb(14, 14, 48);
+        color:white;
+        font-family:'Poppins',sams-sref;
+    }
+    nav{
+        display:flex;
+        justify-content:space-around;
+        align-item:center;
+        height:30px;
+        background-color:rgb(16, 16, 68);
+        height:60px;
+    }
+    nav ul{
+        display:flex;
+        justify-content:center;
+    }
+    nav ul li {
+        list-style:none;
+        margin:0 23px;
+    }
+    .left{
+        font-size:1.2rem;
+        margin:14px;
+    }
+    .right{
+        margin:15px;
+    }
+    .firstsection{
+        display:flex;
+        justify-content:space-around;
+       margin:50px;   
+        align-item:center;
+    }
+    .firstsection >div{
+        width:30%;
+    }
+    .leftsection{
+        font-size:1.5rem;
+        margin:50px 0;
+    }
+    .rightsection img{
+        width:80%;
+        margin:50px;
+    }
+    .purple{
+        color:rgb(193, 140, 234);
+    }
+    nav ul li a:hover{
+        color:lavender;
+        font-size:1.04rem;
+
+    }
+    nav ul li a:{
+        color:rgb(232, 220, 241);
+    }
+    #element{
+        color:rgb(193, 140, 234);
+    }
+    .secondsection{
+        max-width:80vw;
+        margin:auto;
+        height:80vh;
+    }
+    main hr{
+        height:1px;
+        background:#rgb(193, 140, 234);
+        margin:2px;
+    }
+    .text-grey{
+        color:grey;
+    }
+    h2{
+        margin:20px;
+    }
+    .secondsection .box{
+        height:2px;
+        background:white;
+        width:150vh;
+        margin:45px;
+        display:flex;
+    }
+    .secondsection .verticle{
+        height:93px;
+        width:1px;
+        background-color:white;
+        margin:0 56px;
+    }
+    .verticletitle{
+        position:relative;
+        top:98px;
+        width:150px;
+        right:57px;
+    }
+    .verticle-desc{
+    position:relative;
+    color:grey;
+    width:150px;
+    font-size:11px;
+    right:140px;
+    top:149px;
+    }
+    .image-top{
+        width:32px;
+        left:-11px;
+        top:-32px;
+        position:relative;
+    }
+    footer{
+        height:233px;
+        background-color:rgb(14, 14, 48);;
+    }
+    footer .flex .f-first h3{
+        display:flex;
+        margin:23px 122px;
+       
+    }
+    footer{
+        display:flex;
+        justify-content:space-evenly;
+        padding:23px 122px;
+    }
+    .footer h3{
+        margin: 23px 122px;
+    }
+   footer ul{
+    list-style:none;
+   }
+    footer .f-rights{
+        text-align:center;
+        color:grey;
+        padding:12px;
+    }
+    .leftsection .btn{
+        border:2px solid white;
+        margin:30px;
+        background-color:rgb(16, 16, 68);
+        color:white;
+        padding:5px;
+    }
+             
+    </style>
+    </head>
+    <body>  
+        <header>
+            <nav>  
+            <div class="left">Drashti's Portfolio</div>
+            
+                    <div class="right">
+                    <ul>
+                <li><a href ="/">Home  </a></li>       
+                <li><a href ="/">Service </a></li>
+                <li><a href ="/">projects </a></li>
+                <li><a href ="/">About </a></li>
+                <li><a href ="/">Contact me</a></li>
+                    </ul>
+                 </div>
+             </nav>
+        </header>
+        <main>
+        <section class="firstsection">
+        <div class="leftsection">
+        Hi, My name is <span class = "purple">Drashti</span>
+         and i'm a passionate  <br> 
+         <span id="element"></span>
+         <br>
+          <div class="buttons">
+         <button class="btn">Download resume
+         <button class="btn">Visit github  </div></div> 
+        
+        <div class="rightsection">
+        <img src="girl.jpg">
+        </div>  </section>
+
+         <section class="secondsection">
+        <hr>
+        <span class="text-grey"> what I have Done so far</span>
+        <h2>work Experience </h2>
+        <div class="box">
+       <div class="verticle">
+       <img class="image-top" src="developer.png">
+       </div>
+       <div class="verticletitle">
+       Web developer
+       </div>
+       <div class="verticle-desc">
+       html, css, javascript, sql, Nodejs, Angular, React
+       </div>
+        <div class="verticle">
+          <img class="image-top" src="dsa_logo.png">
+       </div>
+       <div class="verticletitle">
+       DSA
+       </div>
+       <div class="verticle-desc">
+                Mastering topics like Array, String, Queue, linkedlist, tree, graph</div>
+      <div class="verticle">
+      <img class="image-top" src="Android.png">
+       </div>
+       <div class="verticletitle">
+       Android Developement
+       </div>
+       <div class="verticle-desc">
+       Develop a Calculator , develop a Android Authentication app</div>
+    <div class="verticle">
+      <img class="image-top" src="languages.png">
+       </div>
+       <div class="verticletitle">
+       Languages:
+       </div>
+       <div class="verticle-desc">
+       JAVA, PYTHON, C++, C, Asp.NET, php
+       </div>
+        
+        </section>
+        </main>       
+        <footer>
+        <div class="flex">
+            <div class="f-first">
+            <h3>Drashti's portfolio Website</h3>
+            <div class="f-second">
+            <ul>
+            <li> Home</li>
+            <li> About</li>
+            <li> Contact</li>
+            <li> Services</li>
+            </ul>
+            <div class="f-third">
+            <div class="f-fourth">
+            </div>
+            <div class="f-rights">
+           Copyright &#169; www.drashtiportfolio.com | All rigths reserved
+            
+        </footer>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer ,  Application Developer'],
+      typeSpeed: 50,
+    });
+  </script>    
+    </body>
+    </html>
